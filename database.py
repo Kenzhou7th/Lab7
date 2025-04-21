@@ -11,3 +11,4 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False,
 bind=engine)
 # Base class to create tables
 Base = declarative_base()
+
